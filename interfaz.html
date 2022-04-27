@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>interfaz </title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#">Acceder</a>
+                <a href="#">Acerda de</a>
+                <a href="#">Contacto</a>
+            </nav>
+                 <div class="foto">
+                         <img src="IMG/UnivalleRecortado.svg.png" width="115" height="115" alt="foto-logo">
+                 </div>
+        </div>
+    </header>
+    <section class="main">
+        <section class="acceder">
+            <div class="contenedor">
+                <h3 class="titulo">Acceda al Campus Virtual</h3>
+                <form action="" class="formulario" id="formulario" name="formulario">
+                    <div class="contenedor2-inputs">
+                        <input type="email" name="Usuario" placeholder="Usuario" >
+                        <input type="password" name="Contraseña" placeholder="Contraseña" >
+        
+                        <div class="tipo">
+                            <input type="radio" name="tipo" id="estudiante" value="estudiante">
+                            <label class="label-radio estudiante" for="estudiante">Estudiante</label>
+        
+                            <input type="radio" name="tipo" id="profesor" value="profesor">
+                            <label class="label-radio profesor" for="profesor">Profesor</label>
+        
+                        </div>
+                        <ul class="error" id="error"></ul>
+                    </div>
+        
+                    <input type="submit" class="btn" value="Acceder">
+                </form>
+            </div>
+        </section>  
+    </section>
+    <script src="../INTERFAZ/introduccion.js"></script>
+</body>
+</html>
