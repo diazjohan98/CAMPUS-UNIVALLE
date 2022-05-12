@@ -10,41 +10,26 @@
 </head>
 <body>
     <header>
-        <div class="contenedor">
-            <nav class="menu">
-                <a href="#">Acceder</a>
-                <a href="#">Acerda de</a>
-                <a href="#">Contacto</a>
-            </nav>
-                 <div class="foto">
-                         <img src="IMG/UnivalleRecortado.svg.png" width="115" height="115" alt="foto-logo">
-                 </div>
-        </div>
+            <section class="acceder">
+                <div class="contenedor">
+                    <h3 class="titulo">Acceda al Campus Virtual</h3>
+                    <form action="" class="formulario" id="formulario" name="formulario">
+                        <div class="contenedor2-inputs">
+                            <h4 class="subtitulo">Nombre de Usuario</h4>
+                            <input type="email" name="Usuario" placeholder="Nombre de Usuario">
+                            <h4 class="subtitulo">Contraseña</h4>
+                            <input type="password" name="Contraseña" placeholder="Contraseña">      
+                            <ul class="error" id="error"></ul>
+                        </div>
+            
+                        <input type="submit" class="btn" value="Acceder">
+                    </form>
+                    <h5 class="pregunta">¿Olvido su nombre de Usuario o Contraseña?</h5>
+                </div>
+            </section>  
     </header>
     <section class="main">
-        <section class="acceder">
-            <div class="contenedor">
-                <h3 class="titulo">Acceda al Campus Virtual</h3>
-                <form action="" class="formulario" id="formulario" name="formulario">
-                    <div class="contenedor2-inputs">
-                        <input type="email" name="Usuario" placeholder="Usuario" >
-                        <input type="password" name="Contraseña" placeholder="Contraseña" >
-        
-                        <div class="tipo">
-                            <input type="radio" name="tipo" id="estudiante" value="estudiante">
-                            <label class="label-radio estudiante" for="estudiante">Estudiante</label>
-        
-                            <input type="radio" name="tipo" id="profesor" value="profesor">
-                            <label class="label-radio profesor" for="profesor">Profesor</label>
-        
-                        </div>
-                        <ul class="error" id="error"></ul>
-                    </div>
-        
-                    <input type="submit" class="btn" value="Acceder">
-                </form>
-            </div>
-        </section>  
+
     </section>
     <script src="./js/introduccion.js"></script>
 </body>
